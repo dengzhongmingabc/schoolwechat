@@ -87,6 +87,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
+  mode: 'history',
   routes,
   // 页面滚动行为
   scrollBehavior: () => ({ x: 0, y: 0 })
